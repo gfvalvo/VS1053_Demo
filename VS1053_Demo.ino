@@ -34,12 +34,6 @@ char currentMp3File[26] = "/";
 char *mp3FileNamePosition;
 
 void setup() {
-
-	// --------------- Remove from demo code ---------------------
-	pinMode(25, OUTPUT);
-	digitalWrite(25, LOW);
-	// --------------- Remove from demo code ---------------------
-
 	Serial.begin(115200);
 	delay(1000);
 	Serial.println("Starting");
